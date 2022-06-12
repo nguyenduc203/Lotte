@@ -129,7 +129,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url('/Restaurants-Demo-main/images/bg_3.jpg') no-repeat;
+    background:url('/Restaurants/images/banner.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -203,6 +203,8 @@ section{
 
 .about .row .image{
     flex:1 1 500px;
+    vertical-align: middle;
+    border-style: none;
 }
 
 .about .row .image img{
