@@ -28,6 +28,7 @@
 <!-- header end -->
 <!-- home start -->
 <section class="home" id="home">
+    
     <div class="content">
         <h3>Welcome to Dragon Santo Restaurans</h3>
         <p>It’s finger lickin’ good!</p>
@@ -108,22 +109,19 @@
     </div>
     <div class="col col-harf contact-form">
         <form action="">
-            <div class="row">
-                <div class="col-col-harf mt-8">
-                    <input type="text" name="" placeholder="Name:" required id="" class="form-control">
-                </div>
-                <div class="col-col-harf mt-8">
-                    <input type="Email" name="" placeholder="Email:" required id="" class="form-control">
-                </div>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name" required>
             </div>
-            <div class="row">
-                <div class="col-col-full mt-8">
-                    <input type="text" name="" placeholder="Message:" required id="" class="form-control">
-                </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email" required>
             </div>
-            <div class="form submit-btn mt-16">
-                <input type="submit" value="">
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="number" placeholder="number" required>
             </div>
+            <input type="submit" value="Send" class="btn">
         </form>
     </div>
 </section>

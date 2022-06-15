@@ -283,58 +283,73 @@ section{
     background-color: #fff;
 }
 
-.contact {
-    background-color: #fff;
-    min-width: 1200px;
-}
-
-.contact .contact-heading {
-    text-align: center;
-    font-weight: lighter;
-    padding: 10px 20px;
-    justify-content: center;
-}
-
-.contact-content {
-    margin-top : 48px;
+.cotact {
     display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: var(--black);
+    margin-top: 48px;
+}
+
+.contact-heading p{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-weight: lighter;
+    font-family: 25px 'raleway',sans-serif;
+    margin: -21px 0px 20px;
 }
 
 .contact-info {
-    font-size: 18px;
+    width: 18px;
     line-height: 1.5;
+    color: #fff;
 }
 
-.contact-info i[class*="fa-"] {
+.contact-info i[class*="fa-"]
+{
     width: 30px;
     display: inline-block;
 }
 
-.contact-form {
-    font-size: 15px;
+.contact-form .inputBox {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:var(--bg);
+    border:var(--border);
 }
 
-.contact-form .form-control {
-    padding: 10px;
-    border: 1px solid rgba(204, 204, 204, 0.745);
+.contact-form .inputBox span {
+    color:#fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.contact-form .inputBox input {
     width: 100%;
-}
-
-/* .mt-16 {
-    padding: 16px 2px ;
-    background-color: #fff;
-    margin-top: 0px;
-    color: #fff
-    padding: 8px;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
     float: right;
+}
+.mt-16 {
+    width: 100%;
+    padding:2rem;
+    font-size: 1.7rem;
+    color:#fff;
+    text-transform: none;
+    background:none;
 }
 
 
 .mt-16:hover {
     background-color: #000;
     color: #fff;
-    border: 1px solid #fff;
-} */
+}
 
 .mt-8 {
     margin-top: 8px;
@@ -343,7 +358,7 @@ section{
 .wrapper{
     width: 100%;
     display: flex;
-    background-color: #fff;
+    background-color: var(--black);
     border-top: 1px solid #000;
     justify-content: space-evenly;
 }
