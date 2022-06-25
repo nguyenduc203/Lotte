@@ -129,7 +129,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url('/Restaurants/images/banner.png') no-repeat;
+    background:url('/Restaurants/images/banner.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -304,6 +304,9 @@ section{
     width: 18px;
     line-height: 1.5;
     color: #fff;
+    display: inline;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .contact-info i[class*="fa-"]
